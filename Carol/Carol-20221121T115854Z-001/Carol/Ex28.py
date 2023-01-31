@@ -6,4 +6,4 @@ do = (nu*2)+nu2 /2
 de = (nu*3)+real
 rea = real*3
 
-print("A){} \nB){} \nC){}" .format(do, de, rea))
+print("A){} \nB){} \nC){}" .format(do, de, real))

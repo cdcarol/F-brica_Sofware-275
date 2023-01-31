@@ -1,13 +1,14 @@
-mvn = ['matutino','vespertino','noturno']input("Digite seu turno:")
+turno = str(input("Digite: \n(M) matutino, (V) vespertino, (N) noturno\n"))
 
-if mvn :['matutino']
-    print("Bom dia!")
+if turno == "M":
+    print("Bom Dia!")
 
-elif mvn ['vespertino']
-    print("Boa tarde!")
+elif turno == "V":
+    print("Boa Tarde!")
 
-if mvn :['noturno']
-    print("Boa noite!")
+elif turno == "N":
+    print("Boa Noite!")
 
-elif mvn
-    print(" valor inválido")
+else:
+    print("Valor Inválido")
+
