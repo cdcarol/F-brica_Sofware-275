@@ -1,8 +1,7 @@
+num = float(input("Digite um número:"))
 num = 0
-soma = 0
-
-while num != -999:
-    soma += num
+while num -1:
     num = float(input("Digite um número:"))
+    num += 1
 
-print("A soma dos números digitados foram: {}".format(soma))
+print(f"Foram digitados {num} números")

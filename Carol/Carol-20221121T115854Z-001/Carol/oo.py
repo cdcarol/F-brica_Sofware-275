@@ -2,6 +2,9 @@ num = int(input(""))
 par = num
 impar = num
 
-for i in range (10):
+while num != -999:
     num = int(input(""))
-    if
+    if n:
+        par = num
+    else:
+        print(f"os números ímpares digitados foram: {impar}")
